@@ -1,0 +1,68 @@
+#serviceNav .container{
+    background-color: aqua;
+    min-height: 100vh;
+	width: 100%;
+	display: table;
+	align-items: center;
+	justify-content: center;
+    padding-top: 80px;
+    flex-direction: row;
+}
+#serviceNav .listCar{
+    background-image: url(./img/skoda-octavia-scout-2020-1.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    display: table-cell;
+    width: 25%;
+    align-self: flex-start;
+}
+#serviceNav .listBike{
+    background-image: url(./img/motorka\ neco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: pink;
+    flex-direction: column;
+    display: table-cell;
+    width: 25%;
+    align-self: flex-start;
+}
+#serviceNav .listRedo{
+    background-image: url(./img/vraceni_ridicskeho_prukazu.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    display: table-cell;
+    width: 25%;
+    align-self: center;
+}
+#serviceNav .listCondition{
+    background-image: url(./img/kondicni_jizdy.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    display: table-cell;
+    width: 25%;
+    align-self: flex-start;
+}
+
+    ServiceNav Section -->
+        <section id="serviceNav">
+            <div class="serviceNav container">
+                <div class="listCar">
+                    <h1 class="section-title">AUTO</h1>
+                </div>
+                <div class="listBike">
+                    <p>AUTO</p>
+                </div>
+                <div class="listRedo">
+                    <p>Vraceni RP</p>
+                </div>
+                <div class="listCondition">
+                    <p>kondicni lizdy</p>
+                </div>
+            </div>
+        </section>
+    <!-- End ServiceNav Section
+
+

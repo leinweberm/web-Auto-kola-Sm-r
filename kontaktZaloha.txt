@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Autoškola Směr Vám pomůže získat řidičské oprávnění na motorku nebo auto! Najdete nás v Havířově a Českém Těšíně."/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleKontakt.css">
+  <title>Autoškola Směr - Havířov, Český Těšín</title>
+  <link rel="shortcut icon" type="image/jpg" href="./img/favicon.png"/>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html">
+            <h1><img src="img/autoskola_smer_logo.png" alt="autoškola havířov, český těšín, autoskola, havirov, cesky tesin"></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">úvod</a></li>
+            <li><a href="index.html" data-after="Home">cenik</a></li>
+            <li><a href="nabizime.html" data-after="Service">Nabízíme</a></li>
+            <li><a href="ke_stazeni.html" data-after="links">Ke stažení</a></li>
+            <li><a href="kontakt.html" data-after="Contact">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div class="contact-top">
+        <h1 class="section-title">KONTAKT</h1>
+      </div>
+      <div class="contact-bottom">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/telefon_autoskola_smer_havirov_cesky_tesin_motorka_auto_ridicak_skupinaB_skupinaA.jpg" /></div>
+          <h2>Telefon</h2>
+          <p>+420 776 279 791</p>
+          <p>+420 774 505 080</p>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/email_autoskola_smer_havirov_cesky_tesin_motorka_auto_ridicak_skupinaB_skupinaA.jpg" /></div>
+          <h2>email</h2>
+          <p>info@autoskolasmer.cz</p>
+          <p>Neváhejte nám napsat!</p>
+        </div>        <div class="contact-item">
+          <div class="icon"><img src="./img/contact_autoskola_smer_havirov_cesky_tesin_motorka_auto_ridicak_skupinaB_skupinaA.jpg" /></div>
+          <h2>Adresa</h2>
+          <p>Havířov - Moskevská 1390/28</p>
+          <p>Český Těšín - Karvinská 527/19</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+ <!-- <u>Havířov - Moskevská 1390/28</u>
+<p>Po 14:00-16:30</p>
+<p>St 9:00-11:00</p>
+<p>Čt 14:00-16:30</p>
+<p>Zahájení v pondělí 16:30.</p>
+
+<u>Český Těšín - Karvinská 527/19</u>
+<p>Út 12:00-14:00</p>
+<p>St 14:00-16:30</p>
+<p>Čt 12:00-14:00</p>
+<p>Zahájení ve středu 16:30.</p> -->
+
+  <!-- Map Section -->
+  <section id="map">
+    <div class="map container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2150.5264590106385!2d18.437681990992562!3d49.78693979039235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713fece79aec76b%3A0xcbeef9a42d804ed4!2zTW9za2V2c2vDoSAxMzkwLzI4LCBNxJtzdG8sIDczNiAwMSBIYXbDrcWZb3Y!5e0!3m2!1scs!2scz!4v1640858472893!5m2!1scs!2scz" width="600" height="450" style="border:0;" class="googlemapa" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.0081264715905!2d18.617103116186456!3d49.74829087938467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471406aa77e042af%3A0xa3f18541e1f8e4d0!2zS2Fydmluc2vDoSA1MjcsIDczNyAwMSDEjGVza8O9IFTEm8Whw61u!5e0!3m2!1scs!2scz!4v1640858554244!5m2!1scs!2scz" width="600" height="450" style="border:0;" class="googlemapa" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+   </section>
+ <!-- End Map Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="section-title">Autoškola směr</div>
+      <h2>Havířov / Český Těšín</h2>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.nabizime-title {
+	font-size: 4rem;
+	font-weight: 6500;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+	text-align: center;
+	margin-top: 35px;
+}
+.nabizime-title2 {
+	font-size: 4rem;
+	font-weight: 6500;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+	text-align: center;
+	margin-top: 35px;
+}
+.nabizime {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.listCar {
+	background-image: url(./img/auto\ neco.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 25%;
+	justify-content: center;
+}
+.listBike {
+	background-image: url(./img/motorka\ neco.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 25%;
+	justify-content: center;
+}
+.listRedo {
+	background-image: url(./img/vraceni_ridicskeho_prukazu2.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 25%;
+	justify-content: center;
+}
+.listCondition {
+	background-image: url(./img/kondicni_jizdy.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 25%;
+	justify-content: center;	
+}
+@media only screen and (min-width: 678px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.nabizime {
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.listCar {
+		width: 25%;
+		height: 100%;
+	}
+	.listBike {
+		width: 25%;
+		height: 100%;
+	}
+	.listRedo {
+		width: 25%;
+		height: 100%;
+	}
+	.listCondition {
+		width: 25%;	
+		height: 100%;
+	}
+}

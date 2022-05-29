@@ -1,0 +1,142 @@
+/* SkupinyB Section */
+#skupinyB .skupinyB {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	text-align: center;
+	width: 80%;
+	margin-top: 100px;
+}
+#skupinyB .top img {
+	width: 100%;
+	margin-top: 40px;
+}
+#skupinyB .bottom {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+#skupinyB .bottom-left {
+	text-align: left;
+	flex-direction: column;
+	align-self: flex-start;
+	width: 100%;
+}
+#skupinyB .bottom-right {
+	text-align: left;
+	flex-direction: column;
+	align-self: flex-start;
+	width: 100%;
+}
+#skupinyB .skupinyB-cena {
+	background-color: #0077d0;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 10px;			
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: fit-content;
+}	
+#skupinyB .skupinyB-cena h2{
+	color: white;
+}
+/* End SkupinyB Section */
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+    /* SkupinyB Section */
+	#skupinyB .skupinyB {
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		text-align: center;
+		width: 80%;
+	}
+	#skupinyB .top img {
+		width: 100%;
+		margin-top: 40px;
+	}
+	#skupinyB .bottom {
+		display: flex;
+		flex-direction: column;
+		padding-top: 30px;
+		margin-bottom: 50px;
+	}
+	#skupinyB .bottom-left {
+		text-align: left;
+		flex-direction: column;
+		align-self: flex-start;
+		width: 100%;
+	}
+	#skupinyB .bottom-right {
+		text-align: left;
+		flex-direction: column;
+		align-self: flex-start;
+		width: 100%;
+	}
+	#skupinyB .skupinyB-cena {
+		background-color: #0077d0;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		padding: 10px;			padding-left: 20px;
+		padding-right: 20px;
+		max-width: fit-content;
+	}	
+	#skupinyB .skupinyB-cena h2{
+		color: white;
+	}
+	/* End SkupinyB Section */
+}
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+    /* SkupinyB Section */
+	#skupinyB .skupinyB {
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		text-align: center;
+		width: 80%;
+		padding-top: 100px;
+	}
+	#skupinyB .top img {
+		width: 100%;
+		margin-top: 40px;
+	}
+	#skupinyB .bottom {
+		display: table;
+		flex-direction: row;
+		padding-top: 30px;
+		margin-bottom: 50px;
+	}
+	#skupinyB .bottom-left {
+		text-align: left;
+		flex-direction: column;
+		padding: 30px;
+		align-self: flex-start;
+		width: 50%;
+		display: table-cell;
+	}
+	#skupinyB .bottom-right {
+		text-align: left;
+		flex-direction: column;
+		padding: 30px;
+		align-self: flex-start;
+		width: 50%;
+		display: table-cell;
+	}
+	#skupinyB .skupinyB-cena {
+		background-color: #0077d0;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		max-width: fit-content;
+	}
+	#skupinyB .skupinyB-cena h2{
+		color: white;
+	}
+	/* End SkupinyB Section */
+}
